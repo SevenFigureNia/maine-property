@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:rgb(213, 240, 213)
+}
+header{
+    color: white;
+    height: 40px;
+    /* margin: left 5px; */
+    background:rgb(9, 69, 9);
+    /* text-align:center; */
+}
+
+.header{
+    float:left;
+    padding: 10px;
+    width:300px;
+}
+
+nav ul{
+
+}
+
+.list{
+float: right;
+word-spacing: 5px;
+margin-top: 10px;
+margin-right: 20px;
+    list-style-type: none; /* Removes bullet points */
+    /* margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    overflow: hidden;  */
+
+    /* CRITICAL: This is the clearfix hack to contain the floats */
+} 
+
+
+nav li{
+    display: inline-block;
+    gap: 10px;
+}
+
+
+.business{
+align-items: center;
+text-align: center;
+width: 550px; /* Or any width you prefer */
+color:darkgreen;
+/* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); Pulls the section back to the true center */
+margin-left: auto;
+margin-right: auto; 
+margin-top: 25px;
+margin-bottom: 20px;
+
+}
+.label{
+margin-left: 375px;
+color:darkgreen;
+margin-bottom: 20px;
+
+}
+.label2{
+margin-left:350px;
+color: darkgreen;
+margin-bottom: 20px;
+}
+.work{
+    background-color: white;
+    border-top:solid 5px darkgreen;
+    width:600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 15px;
+    margin-bottom: 50px;
+        border-radius: 5px;
+
+}
+.affirmations{
+    width:600px;
+    background-color:white;
+    border-left:solid 3.5px darkgreen;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 15px;
+    margin-bottom: 50px;
+      border-radius: 10px;
+}
+.forms{
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    width:950px;
+    font-size:10px;
+        border-radius: 10px;
+
+}
+.container{
+    width:75%;
+    margin-left: 350px;
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    background-color: white;
+    margin-bottom:30px;
+    border-radius: 10px;
+}
+
+
+.btn{
+    color: white;
+    border: 2px solid darkgreen;
+    background-color: darkgreen;
+    text-decoration: none;
+
+}
+
+footer{
+    width: 100%;
+    color: white;
+    height: 100px;
+    background:rgb(9, 69, 9);
+    overflow: auto;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.7;
+    padding-top: 20px;
+    font-size:10px
+}
